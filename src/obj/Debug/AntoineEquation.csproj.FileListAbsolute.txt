@@ -24,3 +24,6 @@ C:\Users\Thomas\Documents\GitHub\AntoineEquation\src\obj\Debug\AntoineEquation.L
 C:\Users\Thomas\Documents\GitHub\AntoineEquation\src\obj\Debug\AntoineEquation.Properties.Resources.resources
 C:\Users\Thomas\Documents\GitHub\AntoineEquation\src\obj\Debug\AntoineEquation.WebForm.resources
 C:\Users\Thomas\Documents\GitHub\AntoineEquation\src\obj\Debug\AntoineEquation.csproj.GenerateResource.Cache
+C:\Users\Central\Documents\GitHub\AntoineEquation\src\bin\Debug\AntoineEquation.exe.config
+C:\Users\Central\Documents\GitHub\AntoineEquation\src\obj\Debug\AntoineEquation.exe
+C:\Users\Central\Documents\GitHub\AntoineEquation\src\obj\Debug\AntoineEquation.pdb
