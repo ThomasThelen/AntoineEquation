@@ -13,3 +13,12 @@ Supported units include
   8. psi
 
 The software also includes a quick method for obtaining a component's antoine coefficients through NIST,  tables, and DETHERM. Additional text references are given as well.
+
+![Auto Search](http://i.imgur.com/wdZzqWi.jpg)
+
+
+![PT-Diagram](http://imgur.com/B6HWpv0.jpg)
+
+Easily create and save PT diagrams.
+
+![Overall](http://i.imgur.com/BDS0FsR.jpg)
