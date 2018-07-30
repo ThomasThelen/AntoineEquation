@@ -20,8 +20,6 @@ namespace AntoineEquation
 
         private void HelpForm_Load(object sender, EventArgs e)
         {
-
         }
     }
-        
 }
