@@ -34,13 +34,11 @@ namespace AntoineEquation
                 Temperature[0] = Convert.ToDouble(temperatureInitial.Text) + 273.15;
                 Temperature[48] = Convert.ToDouble(temperatureFinal.Text) + 273.15;
             }
-
-            else if (unitsTemp.SelectedItem.ToString() == "Kelvin" && unitsAntoine.SelectedItem.ToString() == "Celcius")
+            else if (unitsTemp.SelectedItem.ToString() == "Kelvin" && (unitsAntoine.SelectedItem.ToString() == "Celcius"))
             {
                 Temperature[0] = Convert.ToDouble(temperatureInitial.Text) - 273.15;
                 Temperature[49] = Convert.ToDouble(temperatureFinal.Text) - 273.15;
             }
-
             else if (unitsTemp.SelectedItem.ToString() == "Celcius" && unitsAntoine.SelectedItem.ToString() == "Celcius" || unitsTemp.SelectedItem.ToString() == "Kelvin" && unitsAntoine.SelectedItem.ToString() == "Kelvin")
             {
                 Temperature[0] = Convert.ToDouble(temperatureInitial.Text);
@@ -108,7 +106,6 @@ namespace AntoineEquation
                 MessageBox.Show("Please enter the remaining coefficients");
                 return 0;
             }
-
 
             if (String.IsNullOrWhiteSpace(temperatureInitial.Text) == true || String.IsNullOrWhiteSpace(temperatureFinal.Text) == true)
             {
