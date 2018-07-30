@@ -20,7 +20,6 @@ namespace AntoineEquation
             InitializeComponent();
         }
 
-
         private void button1_Click(object sender, EventArgs e)
         {
             if (ErrorCheck()==0)
@@ -47,9 +46,6 @@ namespace AntoineEquation
                 Temperature[0] = Convert.ToDouble(temperatureInitial.Text);
                 Temperature[48] = Convert.ToDouble(temperatureFinal.Text);
             }
-
-
-
             
             this.ClientSize = new System.Drawing.Size(890, 399);
             // Create the chart
@@ -79,9 +75,6 @@ namespace AntoineEquation
             chartArea1.AxisX.Title = unitsAntoine.Text;
             chartArea1.AxisY.Title = unitsPressure.Text;
 
-
-
-           
             PTDiagram.Series[0].ChartType =  System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
 
             // Plot the data from Antoine's Equation
@@ -95,11 +88,7 @@ namespace AntoineEquation
             pBox.Text = Pressure[0].ToString();
             pBox2.Text = Pressure[47].ToString();
             button2.Show();
-
-
-
-
-                }
+            }
         public int ErrorCheck()
         {
             if (unitsTemp.SelectedItem == null)
@@ -107,7 +96,6 @@ namespace AntoineEquation
                 MessageBox.Show("Please enter the temperature units");
                 return 0;
             }
-
 
             if (unitsAntoine.SelectedItem == null)
             {
@@ -133,7 +121,6 @@ namespace AntoineEquation
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -172,12 +159,10 @@ namespace AntoineEquation
 
         private void label1_Click(object sender, EventArgs e)
         {
-
         }
 
         private void PTDiagram_Click(object sender, EventArgs e)
         {
-
         }
 
         private void nISTToolStripMenuItem_Click(object sender, EventArgs e)
